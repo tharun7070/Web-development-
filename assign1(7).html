@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <hr>
+<h3>Registration Form</h3>
+<form>
+  <label>Date of Birth: <input type="date"></label><br>
+  <label>Experience (1-10): <input type="range" min="1" max="15"></label><br>
+  <label>Favorite Color: <input type="color"></label><br>
+  <label>Choose Skill:
+    <input list="skills">
+    <datalist id="skills">
+      <option value="HTML">
+      <option value="CSS">
+      <option value="JavaScript">
+         <option value="Python">
+             <option value="Java">
+    </datalist>
+  </label><br>
+  <button type="submit">Register</button>
+</form>
